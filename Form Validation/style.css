@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: url('Time-to-travel-banner-design-template-11-large.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    text-shadow: 1.2rem;
+}
+
+.packages {
+    padding: 20px;
+}
+
+.beach-package {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact {
+    padding: 20px;
+    border-color: rgb(12, 12, 12);
+    border-radius: 50%;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        height: 200px;
+    }
+}
